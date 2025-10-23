@@ -10,6 +10,7 @@
 		398C8C1CF2A1C9CF1FE89470 /* Pods_MamiBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744672D4FD0F20B4F82D8DD1 /* Pods_MamiBank.framework */; };
 		75A3C535008171A54D885E2A /* Pods_MamiBank_MamiBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E1A16D69BC60F598F29D2E /* Pods_MamiBank_MamiBankUITests.framework */; };
 		81088799DFD53BAEBF8851EB /* Pods_MamiBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D886512DE39C440A8EEE3A68 /* Pods_MamiBankTests.framework */; };
+		92ABD1502EA9E21F0017D7B5 /* SwiftHelperInit in Frameworks */ = {isa = PBXBuildFile; productRef = 92ABD14F2EA9E21F0017D7B5 /* SwiftHelperInit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,20 @@
 			);
 			target = 9267C6AD2EA78A3000E3E360 /* MamiBank */;
 		};
+		927C188B2EA879C60096E690 /* Exceptions for "MamiBank" folder in "MamiBankTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Shared/Resources/Localizable.strings",
+			);
+			target = 9267C6C62EA78A3400E3E360 /* MamiBankTests */;
+		};
+		927C188C2EA879C60096E690 /* Exceptions for "MamiBank" folder in "MamiBankUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Shared/Resources/Localizable.strings",
+			);
+			target = 9267C6D02EA78A3400E3E360 /* MamiBankUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -59,6 +74,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				9267C6D92EA78A3400E3E360 /* Exceptions for "MamiBank" folder in "MamiBank" target */,
+				927C188B2EA879C60096E690 /* Exceptions for "MamiBank" folder in "MamiBankTests" target */,
+				927C188C2EA879C60096E690 /* Exceptions for "MamiBank" folder in "MamiBankUITests" target */,
 			);
 			path = MamiBank;
 			sourceTree = "<group>";
@@ -80,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ABD1502EA9E21F0017D7B5 /* SwiftHelperInit in Frameworks */,
 				398C8C1CF2A1C9CF1FE89470 /* Pods_MamiBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,9 +265,13 @@
 			knownRegions = (
 				en,
 				Base,
+				km,
 			);
 			mainGroup = 9267C6A52EA78A3000E3E360;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9267C6AF2EA78A3000E3E360 /* Products */;
 			projectDirPath = "";
@@ -443,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MamiBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -518,6 +540,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -584,6 +607,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -643,7 +667,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -670,7 +694,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -696,7 +720,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -722,7 +746,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -749,6 +773,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -846,7 +871,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -872,7 +897,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -936,6 +961,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SidaHoil/SwiftHelperInit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92ABD14F2EA9E21F0017D7B5 /* SwiftHelperInit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */;
+			productName = SwiftHelperInit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9267C6A62EA78A3000E3E360 /* Project object */;
 }
