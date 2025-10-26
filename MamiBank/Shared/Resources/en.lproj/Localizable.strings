@@ -5,3 +5,15 @@
 "register" = "Register";
 "password" = "Password";
 "please_input_password" = "Please input password";
+"already_have_account" = "Already have an account?";
+"ok" = "OK";
+"data_missing" = "Data Missing";
+"please_input_phone_number" = "Please input phone number";
+"please_input_password" = "Please input password";
+"enter_verification_code" = "Enter verification code";
+"we_are_automatically_delivering_a_sms_send_to_your_mobile_number" = "We are automatically delivering an sms send to your mobile number";
+"do_not_receive_otp_code" = "Don't receive OTP code?";
+"resend_code" = "Resend code";
+"verify" = "Verify";
+"please_input_otp_code" = "Please inout OTP code";
+

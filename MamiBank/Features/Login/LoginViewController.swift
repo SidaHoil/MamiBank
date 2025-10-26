@@ -49,7 +49,12 @@ class LoginViewController: BaseViewController {
         view.backgroundColor = .systemBackground
         setupUI()
         hideKeyboardWhenTapAround()
+        setupKeyboardNotifications()
         
+    }
+    @MainActor
+    deinit{
+        removeNotification()
     }
     
     private func setupUI() {
@@ -99,15 +104,21 @@ class LoginViewController: BaseViewController {
     @objc private func loginAction(){
         guard let phoneNumber = phoneView.textField.text, !phoneNumber.isEmpty else{
             print("Please input phone number")
+            AlertMessage.shared.show(title: "data_missing".translate, message: "please_input_phone_number".translate) { [weak self] in
+                self?.phoneView.textField.becomeFirstResponder()
+            }
             return
         }
         
         guard let password = passwordView.textField.text, !password.isEmpty else{
             print("Please input password")
+            AlertMessage.shared.show(title: "data_missing".translate, message: "please_input_password".translate) { [weak self] in
+                self?.passwordView.textField.becomeFirstResponder()
+            }
             return
         }
         
-        // TODO: Implement login flow
+        self.navigationController?.pushViewController(HomeViewController(), animated: true)
         print("Login with phone: \(phoneNumber), password: \(password)")
     }
     
@@ -147,5 +158,4 @@ class LoginViewController: BaseViewController {
         
     }
 }
-
 

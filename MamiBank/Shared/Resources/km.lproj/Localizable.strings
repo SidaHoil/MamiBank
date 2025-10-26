@@ -5,3 +5,14 @@
 "register" = "ចុះឈ្មោះ";
 "password" = "ពាក្យសម្ងាត់";
 "please_input_password" = "សូមបញ្ចូលពាក្យសម្ងាត់";
+"already_have_account" = "មានគណនីរួចហើយ?";
+"ok" = "យល់ព្រម";
+"data_missing" = "ទិន្នន័យមិនគ្រប់គ្រាន់";
+"please_input_phone_number" = "សូមបញ្ចូលលេខទូរស័ព្ទ";
+"please_input_password" = "សូមបញ្ចូលពាក្យសម្ងាត់";
+"enter_verification_code" = "បញ្ចូលលេខកូដផ្ទៀងផ្ទាត់";
+"we_are_automatically_delivering_a_sms_send_to_your_mobile_number" = "យើងកំពុងផ្ញើ sms ដោយស្វ័យប្រវត្តិទៅកាន់លេខទូរស័ព្ទរបស់អ្នក។";
+"do_not_receive_otp_code" = "មិនទទួលបានលេខកូដ OTP?";
+"resend_code" = "ផ្ញើលេខកូដឡើងវិញ";
+"verify" = "ផ្ទៀងផ្ទាត់";
+"please_input_otp_code" = "សូមបញ្ចូលលេខកូដ OTP";

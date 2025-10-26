@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSFaceIDUsageDescription</key>
-    <string>We use Face ID to quickly and securely log you in.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need permission to save selfies to your photo library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access the camera to take your selfie.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>We use Face ID to quickly and securely log you in.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>NotoSansKhmer-Regular.ttf</string>
