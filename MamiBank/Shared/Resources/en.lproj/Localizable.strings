@@ -16,4 +16,8 @@
 "resend_code" = "Resend code";
 "verify" = "Verify";
 "please_input_otp_code" = "Please inout OTP code";
+"please_remove_andy_accessories_that_cover_your_face" = "Please remove any accessories that cover your face";
+"align_your_head_inside_the_frame_and_capture_a_clear_image_of_yourself" = "Align your head inside the frame and capture a clear image of yourself";
+"retake" = "Retake";
+"use" = "Use";
 
