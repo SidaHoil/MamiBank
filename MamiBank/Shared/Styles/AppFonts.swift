@@ -21,7 +21,7 @@ struct AppFonts {
     let notoSanSemoBold = "NotoSansKhmer-SemiBold"
 }
 
-extension UIFont{
+extension UIFont {
     static func overrideFont() {
         guard self == UIFont.self else { return }
         

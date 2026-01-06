@@ -1,0 +1,14 @@
+
+included:
+  - Mamibank
+  - MamibankTests
+  - MamibankUITests
+
+excluded:
+  - Pods
+  - DerivedData
+
+disabled_rules:
+  - line_length
+  - trailing_whitespace
+  - identifier_name

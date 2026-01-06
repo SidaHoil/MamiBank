@@ -1,0 +1,5 @@
+{
+    "status": "success",
+    "message": "Login successful.",
+    "token": "mock_token_12345"
+}

@@ -23,14 +23,12 @@ protocol ConfigurationProtocol {
     var isBetaFeaturesEnabled: Bool { get }
 }
 
-fileprivate struct DevConfiguration: ConfigurationProtocol {
-    
-    
+private struct DevConfiguration: ConfigurationProtocol {
     
     // General
     let isLoggingEnabled: Bool = true
     let analyticsKey: String = "DEV-ANALYTICS-KEY"
-    var firebasePath: String{
+    var firebasePath: String {
         let filePath = Bundle.main.path(forResource: "GoogleService-Info-Dev", ofType: "plist")!
         return filePath
     }
@@ -47,15 +45,14 @@ fileprivate struct DevConfiguration: ConfigurationProtocol {
     let isBetaFeaturesEnabled: Bool = true
 }
 
-fileprivate struct StagingConfiguration: ConfigurationProtocol {
+private struct StagingConfiguration: ConfigurationProtocol {
     // General
     let isLoggingEnabled: Bool = true
     let analyticsKey: String = "STAGING-ANALYTICS-KEY"
-    var firebasePath: String{
+    var firebasePath: String {
         let filePath = Bundle.main.path(forResource: "GoogleService-Info-Staging", ofType: "plist")!
         return filePath
     }
-    
     
     let isDebugMenuEnabled: Bool = true
     let environmentName: String = "Staging"
@@ -69,11 +66,11 @@ fileprivate struct StagingConfiguration: ConfigurationProtocol {
     let isBetaFeaturesEnabled: Bool = false
 }
 
-fileprivate struct ProductionConfiguration: ConfigurationProtocol {
+private struct ProductionConfiguration: ConfigurationProtocol {
     // General
     let isLoggingEnabled: Bool = true
     let analyticsKey: String = "PROD-ANALYTICS-KEY"
-    var firebasePath: String{
+    var firebasePath: String {
         let filePath = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist")!
         return filePath
     }
@@ -123,6 +120,16 @@ struct EnvironmentConfig {
     var baseUrl: String {
         let domain = Bundle.main.infoDictionary?["BASE_URL_STRING"] as? String ?? ""
         return "https://" + domain
+    }
+    
+    var isMock: Bool {
+#if DEV_ENVIRONMENT
+        return true
+#elseif STAGING_ENVIRONMENT
+        return true // false
+#else
+        return true // false
+#endif
     }
 }
 /*

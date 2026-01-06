@@ -11,11 +11,13 @@ import Photos
 import SwiftHelperInit
 
 class SelfieViewController: UIViewController {
-    private lazy var previewView : UIView? = nil
+    private lazy var previewView: UIView? = nil
     private lazy var scanImageView = UIImageView(named: "Scan", contentMode: .scaleAspectFit)
     private var captureSession: AVCaptureSession!
     private var previewLayer: AVCaptureVideoPreviewLayer!
     private var photoOutput: AVCapturePhotoOutput?
+    private lazy var retakeButton: UIButton? = nil
+    private lazy var useButton: UIButton? = nil
     private let sessionQueue = DispatchQueue(label: "selfie.capture.session.queue", qos: .userInitiated)
     
     lazy var selfieImage: UIImage? = nil
@@ -38,7 +40,7 @@ class SelfieViewController: UIViewController {
         stopRunningCamera()
     }
     
-    private func stopRunningCamera(){
+    private func stopRunningCamera() {
         // Stop session on background queue
         if captureSession?.isRunning == true {
             sessionQueue.async { [weak captureSession] in
@@ -46,7 +48,7 @@ class SelfieViewController: UIViewController {
             }
         }
     }
-    private func setupCamera(){
+    private func setupCamera() {
         captureSession = AVCaptureSession()
         captureSession.sessionPreset = .photo
         guard let camera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front) else {
@@ -54,9 +56,9 @@ class SelfieViewController: UIViewController {
             return
         }
         
-        do{
+        do {
             let input = try AVCaptureDeviceInput(device: camera)
-            if captureSession.canAddInput(input){
+            if captureSession.canAddInput(input) {
                 captureSession.addInput(input)
             }
             
@@ -82,21 +84,21 @@ class SelfieViewController: UIViewController {
             
             startRuningCamera()
             
-        }catch{
+        } catch {
             print("⚠️ Error setting up camera: \(error)")
         }
     }
     
-    private func startRuningCamera(){
+    private func startRuningCamera() {
         // Start running on background queue
         sessionQueue.async { [weak self] in
             self?.captureSession.startRunning()
         }
     }
     
-    private func setupButton(){
-        let retakeButton = UIButton(title: "retake".translate, style: .init(textColor: .white, backgroundColor: .clear),font: .boldSystemFont(ofSize: 20), onTap: .init(target: self, action: #selector(retakeAction)))
-        
+    private func setupButton() {
+        retakeButton = UIButton(title: "retake".translate, style: .init(textColor: .white, backgroundColor: .clear), font: .boldSystemFont(ofSize: 20), onTap: .init(target: self, action: #selector(retakeAction)))
+        retakeButton?.alpha = 0
         let captureButton = UIButton(type: .custom)
         captureButton.backgroundColor = .white
         captureButton.layer.cornerRadius = 35
@@ -105,15 +107,18 @@ class SelfieViewController: UIViewController {
         captureButton.translatesAutoresizingMaskIntoConstraints = false
         captureButton.addTarget(self, action: #selector(capturePhoto), for: .touchUpInside)
         
-        let useButton = UIButton(title: "use".translate, style: .init(textColor: .white, backgroundColor: .clear),font: .boldSystemFont(ofSize: 20), onTap: .init(target: self, action: #selector(useAction)))
+        useButton = UIButton(title: "use".translate, style: .init(textColor: .white, backgroundColor: .clear), font: .boldSystemFont(ofSize: 20), onTap: .init(target: self, action: #selector(useAction)))
+        useButton?.alpha = 0
         
         let stackView = UIStackView(subViews: [
-            retakeButton,
+            UIView(),
+            retakeButton!,
             captureButton,
-            useButton
-        ],distribution: .fillProportionally,alignment: .center, axis: .horizontal, spacing: 0)
+            useButton!,
+            UIView()
+        ], distribution: .equalSpacing, alignment: .center, axis: .horizontal, spacing: 0)
         
-        view.addSubViewWithConstraints(stackView, top: nil, leading: view.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: view.trailingAnchor,padding: .init(top: 0, left: 16, bottom: 30, right: 16))
+        view.addSubViewWithConstraints(stackView, top: nil, leading: view.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: view.trailingAnchor, padding: .init(top: 0, left: 16, bottom: 30, right: 16))
         captureButton.setSize(width: 70, height: 70)
     }
     
@@ -123,7 +128,7 @@ class SelfieViewController: UIViewController {
         view.addSubViewToFill(previewView!)
         
         let label = UILabel(text: "- " + "please_remove_andy_accessories_that_cover_your_face".translate + "\n- " + "align_your_head_inside_the_frame_and_capture_a_clear_image_of_yourself".translate, textColor: .white, numberOfLines: 4, textAlignment: .natural)
-        let button = UIButton(title: "ok".translate, font: .boldSystemFont(ofSize: 20),height: 45, onTap: .init(target: self, action: #selector(okAction)))
+        let button = UIButton(title: "ok".translate, font: .boldSystemFont(ofSize: 20), height: 45, onTap: .init(target: self, action: #selector(okAction)))
         
         let previewStackView = UIStackView(subViews: [
             scanImageView,
@@ -131,9 +136,9 @@ class SelfieViewController: UIViewController {
             label,
             UIView(height: 20),
             button
-        ],axis: .vertical,spacing: 0)
+        ], axis: .vertical, spacing: 0)
         
-        previewView?.addSubViewWithConstraints(previewStackView, top: nil, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor,padding: .init(top: 0, left: 16, bottom: 0, right: 16))
+        previewView?.addSubViewWithConstraints(previewStackView, top: nil, leading: view.leadingAnchor, bottom: nil, trailing: view.trailingAnchor, padding: .init(top: 0, left: 16, bottom: 0, right: 16))
         previewStackView.centerYInSuperview()
         let width = view.frame.width/1.8
         scanImageView.setSize(width: width, height: width)
@@ -146,13 +151,13 @@ class SelfieViewController: UIViewController {
         }
     }
     
-    @objc private func okAction(){
+    @objc private func okAction() {
         previewView?.removeFromSuperview()
         
         setupButton()
     }
     
-    @objc private func capturePhoto(){
+    @objc private func capturePhoto() {
         // Ensure session is available
         guard captureSession != nil else {
             setupCamera()
@@ -175,25 +180,27 @@ class SelfieViewController: UIViewController {
         photoOutput?.capturePhoto(with: settings, delegate: self)
     }
     
-    @objc private func retakeAction(){
+    @objc private func retakeAction() {
         startRuningCamera()
     }
     
-    @objc private func useAction(){
+    @objc private func useAction() {
         self.navigationController?.pushViewController(PersonalInfoViewController(), animated: true)
     }
 }
 
-extension SelfieViewController: AVCapturePhotoCaptureDelegate{
+extension SelfieViewController: AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput,
                      didFinishProcessingPhoto photo: AVCapturePhoto,
                      error: Error?) {
-        if let data = photo.fileDataRepresentation(){
+        if let data = photo.fileDataRepresentation() {
             let image = UIImage(data: data)
             selfieImage = image
             stopRunningCamera()
+            retakeButton?.alpha = 1
+            useButton?.alpha = 1
             print("✅ Captured selfie image: \(String(describing: image?.size))")
-        }else if let error = error {
+        } else if let error = error {
             print("⚠️ Error capturing photo: \(error)")
         }
     }

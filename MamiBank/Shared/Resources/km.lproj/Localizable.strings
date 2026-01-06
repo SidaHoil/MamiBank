@@ -20,3 +20,16 @@
 "align_your_head_inside_the_frame_and_capture_a_clear_image_of_yourself" = "តម្រឹមក្បាលរបស់អ្នកនៅខាងក្នុងស៊ុម ហើយចាប់យករូបភាពច្បាស់អំពីខ្លួនអ្នក";
 "retake" = "ថតរូបម្តងទៀត";
 "use" = "ប្រើរូបនេះ";
+"full_name" = "ឈ្មោះពេញ";
+"date_of_birth" = "ថ្ងៃខែឆ្នាំកំណើត";
+"first_name_last_name" = "នាម + នាមត្រកូល";
+"gender" = "ភេទ";
+"male" = "ប្រុស";
+"female" = "ស្ត្រី";
+"select_an_option" = "ជ្រើសរើសជម្រើសមួយ";
+"place_of_birth" = "ទីកន្លែងកំណើត";
+"input_place_of_birth" = "បញ្ចូលកន្លែងកំណើត";
+"current_address" = "អាសយដ្ឋានបច្ចុប្បន្ន";
+"input_current_address" = "បញ្ចូលអាសយដ្ឋានបច្ចុប្បន្ន";
+"personal_information_setup" = "ការកំណត់ព័ត៌មានផ្ទាល់ខ្លួន";
+"submit" = "ដាក់ស្នើ";

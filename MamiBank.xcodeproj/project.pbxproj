@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		398C8C1CF2A1C9CF1FE89470 /* Pods_MamiBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744672D4FD0F20B4F82D8DD1 /* Pods_MamiBank.framework */; };
-		75A3C535008171A54D885E2A /* Pods_MamiBank_MamiBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E1A16D69BC60F598F29D2E /* Pods_MamiBank_MamiBankUITests.framework */; };
-		81088799DFD53BAEBF8851EB /* Pods_MamiBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D886512DE39C440A8EEE3A68 /* Pods_MamiBankTests.framework */; };
-		92ABD1502EA9E21F0017D7B5 /* SwiftHelperInit in Frameworks */ = {isa = PBXBuildFile; productRef = 92ABD14F2EA9E21F0017D7B5 /* SwiftHelperInit */; };
+		0161B3C8C781C38A7BF0DDA5 /* Pods_MamiBank_MamiBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AC85DEDE8B32D2DBE0F142 /* Pods_MamiBank_MamiBankUITests.framework */; };
+		805151A361419EA818832BBD /* Pods_MamiBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBBFF1865DCBF86F92F6924 /* Pods_MamiBankTests.framework */; };
+		9280A4222ECC202B008F2D2C /* SwiftHelperInit in Frameworks */ = {isa = PBXBuildFile; productRef = 9280A4212ECC202B008F2D2C /* SwiftHelperInit */; };
+		BF5FC4AAFC7D967599954E88 /* Pods_MamiBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8450D455524846162E5CDE07 /* Pods_MamiBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,21 +31,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B96151C641AA1930ECE799A /* Pods-MamiBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.debug.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.debug.xcconfig"; sourceTree = "<group>"; };
-		744672D4FD0F20B4F82D8DD1 /* Pods_MamiBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FBECEA4602EB994A6D8E8CE /* Pods-MamiBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.release.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		082B4FEA6A92AEAE5BA8B2C4 /* Pods-MamiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.release.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.release.xcconfig"; sourceTree = "<group>"; };
+		1662B34BAADA8F48FE67D6A2 /* Pods-MamiBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.release.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BBBFF1865DCBF86F92F6924 /* Pods_MamiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5644C42F0EE26C084C82AB48 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.release.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58AC85DEDE8B32D2DBE0F142 /* Pods_MamiBank_MamiBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBank_MamiBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A2FB5AA4290D7A90C49D6 /* Pods-MamiBankTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.staging.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.staging.xcconfig"; sourceTree = "<group>"; };
+		67D279F783A87ED883923D38 /* Pods-MamiBank.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.staging.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.staging.xcconfig"; sourceTree = "<group>"; };
+		7154E53D28F56CEA929CA973 /* Pods-MamiBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.debug.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.debug.xcconfig"; sourceTree = "<group>"; };
+		7415C162890035D13119A3DE /* Pods-MamiBank-MamiBankUITests.tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.tests.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.tests.xcconfig"; sourceTree = "<group>"; };
+		8450D455524846162E5CDE07 /* Pods_MamiBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACE8E0AB8CD68077952B43C /* Pods-MamiBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.debug.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9267C6AE2EA78A3000E3E360 /* Mami Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mami Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9267C6C72EA78A3400E3E360 /* MamiBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamiBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9267C6D12EA78A3400E3E360 /* MamiBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamiBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		944DD7B109D35CD1E2598023 /* Pods-MamiBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.debug.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9802168DCF707F16174C1337 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CE92E1264885DB24A55AC55 /* Pods-MamiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.release.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.release.xcconfig"; sourceTree = "<group>"; };
-		C6E1A16D69BC60F598F29D2E /* Pods_MamiBank_MamiBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBank_MamiBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2A6530431E08D26A278E956 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.release.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D886512DE39C440A8EEE3A68 /* Pods_MamiBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamiBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23DE13A3E35CEF61667AFC7 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F8A9F112520B523A5F965D /* Pods-MamiBank-MamiBankUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank-MamiBankUITests.staging.xcconfig"; path = "Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		D177C23B797D7E0443ADBAC3 /* Pods-MamiBankTests.tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBankTests.tests.xcconfig"; path = "Target Support Files/Pods-MamiBankTests/Pods-MamiBankTests.tests.xcconfig"; sourceTree = "<group>"; };
+		F552880CA31ABE02D97FADE4 /* Pods-MamiBank.tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiBank.tests.xcconfig"; path = "Target Support Files/Pods-MamiBank/Pods-MamiBank.tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		920136BB2EE2D18600B4B720 /* Exceptions for "MamiBankUITests" folder in "MamiBank" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests.xcconfig,
+			);
+			target = 9267C6AD2EA78A3000E3E360 /* MamiBank */;
+		};
+		920136BC2EE2D18600B4B720 /* Exceptions for "MamiBankUITests" folder in "MamiBankUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests.xcconfig,
+			);
+			target = 9267C6D02EA78A3400E3E360 /* MamiBankUITests */;
+		};
 		9267C6D92EA78A3400E3E360 /* Exceptions for "MamiBank" folder in "MamiBank" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -57,6 +77,12 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Shared/Resources/Localizable.strings",
+				Features/Login/LoginModel.swift,
+				Features/Login/LoginRepository.swift,
+				Features/Login/LoginResponseModel.swift,
+				Features/Login/LoginViewController.swift,
+				Features/Login/LoginViewModel.swift,
+				Shared/Resources/Mocks/LoginMockResponse.geojson,
 			);
 			target = 9267C6C62EA78A3400E3E360 /* MamiBankTests */;
 		};
@@ -64,6 +90,12 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: Shared/Resources/Localizable.strings",
+				Features/Login/LoginModel.swift,
+				Features/Login/LoginRepository.swift,
+				Features/Login/LoginResponseModel.swift,
+				Features/Login/LoginViewController.swift,
+				Features/Login/LoginViewModel.swift,
+				Shared/Resources/Mocks/LoginMockResponse.geojson,
 			);
 			target = 9267C6D02EA78A3400E3E360 /* MamiBankUITests */;
 		};
@@ -87,6 +119,10 @@
 		};
 		9267C6D42EA78A3400E3E360 /* MamiBankUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				920136BB2EE2D18600B4B720 /* Exceptions for "MamiBankUITests" folder in "MamiBank" target */,
+				920136BC2EE2D18600B4B720 /* Exceptions for "MamiBankUITests" folder in "MamiBankUITests" target */,
+			);
 			path = MamiBankUITests;
 			sourceTree = "<group>";
 		};
@@ -97,8 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ABD1502EA9E21F0017D7B5 /* SwiftHelperInit in Frameworks */,
-				398C8C1CF2A1C9CF1FE89470 /* Pods_MamiBank.framework in Frameworks */,
+				9280A4222ECC202B008F2D2C /* SwiftHelperInit in Frameworks */,
+				BF5FC4AAFC7D967599954E88 /* Pods_MamiBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81088799DFD53BAEBF8851EB /* Pods_MamiBankTests.framework in Frameworks */,
+				805151A361419EA818832BBD /* Pods_MamiBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,13 +150,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A3C535008171A54D885E2A /* Pods_MamiBank_MamiBankUITests.framework in Frameworks */,
+				0161B3C8C781C38A7BF0DDA5 /* Pods_MamiBank_MamiBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122107DA45249EF2C6558B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8450D455524846162E5CDE07 /* Pods_MamiBank.framework */,
+				58AC85DEDE8B32D2DBE0F142 /* Pods_MamiBank_MamiBankUITests.framework */,
+				2BBBFF1865DCBF86F92F6924 /* Pods_MamiBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9267C6A52EA78A3000E3E360 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +175,7 @@
 				9267C6D42EA78A3400E3E360 /* MamiBankUITests */,
 				9267C6AF2EA78A3000E3E360 /* Products */,
 				A105D46F423ACC2FE439B26A /* Pods */,
-				98507EBD2CF8A626BBD9DDD3 /* Frameworks */,
+				122107DA45249EF2C6558B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,25 +189,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98507EBD2CF8A626BBD9DDD3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				744672D4FD0F20B4F82D8DD1 /* Pods_MamiBank.framework */,
-				C6E1A16D69BC60F598F29D2E /* Pods_MamiBank_MamiBankUITests.framework */,
-				D886512DE39C440A8EEE3A68 /* Pods_MamiBankTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A105D46F423ACC2FE439B26A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B96151C641AA1930ECE799A /* Pods-MamiBank.debug.xcconfig */,
-				9CE92E1264885DB24A55AC55 /* Pods-MamiBank.release.xcconfig */,
-				9802168DCF707F16174C1337 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */,
-				D2A6530431E08D26A278E956 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */,
-				944DD7B109D35CD1E2598023 /* Pods-MamiBankTests.debug.xcconfig */,
-				7FBECEA4602EB994A6D8E8CE /* Pods-MamiBankTests.release.xcconfig */,
+				7154E53D28F56CEA929CA973 /* Pods-MamiBank.debug.xcconfig */,
+				F552880CA31ABE02D97FADE4 /* Pods-MamiBank.tests.xcconfig */,
+				082B4FEA6A92AEAE5BA8B2C4 /* Pods-MamiBank.release.xcconfig */,
+				67D279F783A87ED883923D38 /* Pods-MamiBank.staging.xcconfig */,
+				A23DE13A3E35CEF61667AFC7 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */,
+				7415C162890035D13119A3DE /* Pods-MamiBank-MamiBankUITests.tests.xcconfig */,
+				5644C42F0EE26C084C82AB48 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */,
+				C0F8A9F112520B523A5F965D /* Pods-MamiBank-MamiBankUITests.staging.xcconfig */,
+				8ACE8E0AB8CD68077952B43C /* Pods-MamiBankTests.debug.xcconfig */,
+				D177C23B797D7E0443ADBAC3 /* Pods-MamiBankTests.tests.xcconfig */,
+				1662B34BAADA8F48FE67D6A2 /* Pods-MamiBankTests.release.xcconfig */,
+				594A2FB5AA4290D7A90C49D6 /* Pods-MamiBankTests.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -173,11 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9267C6DA2EA78A3400E3E360 /* Build configuration list for PBXNativeTarget "MamiBank" */;
 			buildPhases = (
-				43F9A5DA364BA9B109CB58EF /* [CP] Check Pods Manifest.lock */,
+				B115BB9F4120D9495A659FE4 /* [CP] Check Pods Manifest.lock */,
 				9267C6AA2EA78A3000E3E360 /* Sources */,
 				9267C6AB2EA78A3000E3E360 /* Frameworks */,
 				9267C6AC2EA78A3000E3E360 /* Resources */,
-				A12703C43C92E8F4830D3350 /* [CP] Embed Pods Frameworks */,
+				719FC16734380F22D742900E /* [CP] Embed Pods Frameworks */,
+				9227E9942EDD4706009EA2A3 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -195,7 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9267C6DF2EA78A3400E3E360 /* Build configuration list for PBXNativeTarget "MamiBankTests" */;
 			buildPhases = (
-				223F365D74511E507314B392 /* [CP] Check Pods Manifest.lock */,
+				86584B72C55C4463035922DD /* [CP] Check Pods Manifest.lock */,
 				9267C6C32EA78A3400E3E360 /* Sources */,
 				9267C6C42EA78A3400E3E360 /* Frameworks */,
 				9267C6C52EA78A3400E3E360 /* Resources */,
@@ -217,11 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9267C6E22EA78A3400E3E360 /* Build configuration list for PBXNativeTarget "MamiBankUITests" */;
 			buildPhases = (
-				778012939A8105F0D97BE25D /* [CP] Check Pods Manifest.lock */,
+				21B0AAA77DFC44E2F57491EC /* [CP] Check Pods Manifest.lock */,
 				9267C6CD2EA78A3400E3E360 /* Sources */,
 				9267C6CE2EA78A3400E3E360 /* Frameworks */,
 				9267C6CF2EA78A3400E3E360 /* Resources */,
-				8D953DB6661FE79B5D396C5C /* [CP] Embed Pods Frameworks */,
+				49C76D847E934181F2537A0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,7 +313,7 @@
 			mainGroup = 9267C6A52EA78A3000E3E360;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */,
+				9280A4202ECC202B008F2D2C /* XCRemoteSwiftPackageReference "SwiftHelperInit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9267C6AF2EA78A3000E3E360 /* Products */;
@@ -309,51 +352,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		223F365D74511E507314B392 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MamiBankTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		43F9A5DA364BA9B109CB58EF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MamiBank-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		778012939A8105F0D97BE25D /* [CP] Check Pods Manifest.lock */ = {
+		21B0AAA77DFC44E2F57491EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,7 +374,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D953DB6661FE79B5D396C5C /* [CP] Embed Pods Frameworks */ = {
+		49C76D847E934181F2537A0A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,7 +395,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MamiBank-MamiBankUITests/Pods-MamiBank-MamiBankUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A12703C43C92E8F4830D3350 /* [CP] Embed Pods Frameworks */ = {
+		719FC16734380F22D742900E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,6 +414,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MamiBank/Pods-MamiBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86584B72C55C4463035922DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamiBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9227E9942EDD4706009EA2A3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f \"${PODS_ROOT}/SwiftLint/swiftlint\" ]; then\n  \"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"${PROJECT_DIR}/.swiftlint.yml\"\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n\n";
+		};
+		B115BB9F4120D9495A659FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamiBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -459,20 +520,23 @@
 /* Begin XCBuildConfiguration section */
 		9267C6DB2EA78A3400E3E360 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B96151C641AA1930ECE799A /* Pods-MamiBank.debug.xcconfig */;
+			baseConfigurationReference = 7154E53D28F56CEA929CA973 /* Pods-MamiBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_NAME)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MamiBank/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access the camera to take your selfie.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to quickly and securely log you in.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to save selfies to your photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,20 +561,23 @@
 		};
 		9267C6DC2EA78A3400E3E360 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CE92E1264885DB24A55AC55 /* Pods-MamiBank.release.xcconfig */;
+			baseConfigurationReference = 082B4FEA6A92AEAE5BA8B2C4 /* Pods-MamiBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_NAME)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MamiBank/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access the camera to take your selfie.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to quickly and securely log you in.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to save selfies to your photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -662,12 +729,12 @@
 		};
 		9267C6E02EA78A3400E3E360 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 944DD7B109D35CD1E2598023 /* Pods-MamiBankTests.debug.xcconfig */;
+			baseConfigurationReference = 8ACE8E0AB8CD68077952B43C /* Pods-MamiBankTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -683,18 +750,18 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamiBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamiBank";
+				TEST_HOST = "";
 			};
 			name = Debug;
 		};
 		9267C6E12EA78A3400E3E360 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FBECEA4602EB994A6D8E8CE /* Pods-MamiBankTests.release.xcconfig */;
+			baseConfigurationReference = 1662B34BAADA8F48FE67D6A2 /* Pods-MamiBankTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -710,17 +777,17 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamiBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamiBank";
+				TEST_HOST = "";
 			};
 			name = Release;
 		};
 		9267C6E32EA78A3400E3E360 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9802168DCF707F16174C1337 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */;
+			baseConfigurationReference = A23DE13A3E35CEF61667AFC7 /* Pods-MamiBank-MamiBankUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -742,11 +809,11 @@
 		};
 		9267C6E42EA78A3400E3E360 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A6530431E08D26A278E956 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */;
+			baseConfigurationReference = 5644C42F0EE26C084C82AB48 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -828,20 +895,23 @@
 		};
 		9267C7082EA78C2600E3E360 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CE92E1264885DB24A55AC55 /* Pods-MamiBank.release.xcconfig */;
+			baseConfigurationReference = 67D279F783A87ED883923D38 /* Pods-MamiBank.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_NAME)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MamiBank/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access the camera to take your selfie.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to quickly and securely log you in.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to save selfies to your photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -866,12 +936,12 @@
 		};
 		9267C7092EA78C2600E3E360 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FBECEA4602EB994A6D8E8CE /* Pods-MamiBankTests.release.xcconfig */;
+			baseConfigurationReference = 594A2FB5AA4290D7A90C49D6 /* Pods-MamiBankTests.staging.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -887,17 +957,17 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamiBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MamiBank";
+				TEST_HOST = "";
 			};
 			name = Staging;
 		};
 		9267C70A2EA78C2600E3E360 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2A6530431E08D26A278E956 /* Pods-MamiBank-MamiBankUITests.release.xcconfig */;
+			baseConfigurationReference = C0F8A9F112520B523A5F965D /* Pods-MamiBank-MamiBankUITests.staging.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FTF953N9JJ;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MARKETING_VERSION = 1.0;
@@ -917,6 +987,167 @@
 			};
 			name = Staging;
 		};
+		92F25CB02ECB1F2900C2608B /* Tests */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 9267C6D42EA78A3400E3E360 /* MamiBankUITests */;
+			baseConfigurationReferenceRelativePath = Tests.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FTF953N9JJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Tests;
+		};
+		92F25CB12ECB1F2900C2608B /* Tests */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F552880CA31ABE02D97FADE4 /* Pods-MamiBank.tests.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON_NAME)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MamiBank/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access the camera to take your selfie.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID to quickly and securely log you in.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to save selfies to your photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sida.MamiBank$(BUNDLE_ID_SUFFIX)";
+				PRODUCT_NAME = "$(APP_DISPLAY_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Tests;
+		};
+		92F25CB22ECB1F2900C2608B /* Tests */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D177C23B797D7E0443ADBAC3 /* Pods-MamiBankTests.tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sida.MamiBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "";
+			};
+			name = Tests;
+		};
+		92F25CB32ECB1F2900C2608B /* Tests */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7415C162890035D13119A3DE /* Pods-MamiBank-MamiBankUITests.tests.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB5QQ6DCS6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sida.MamiBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = MamiBank;
+			};
+			name = Tests;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -924,6 +1155,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9267C6DD2EA78A3400E3E360 /* Debug */,
+				92F25CB02ECB1F2900C2608B /* Tests */,
 				9267C6DE2EA78A3400E3E360 /* Release */,
 				9267C7072EA78C2600E3E360 /* Staging */,
 			);
@@ -934,6 +1166,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9267C6DB2EA78A3400E3E360 /* Debug */,
+				92F25CB12ECB1F2900C2608B /* Tests */,
 				9267C6DC2EA78A3400E3E360 /* Release */,
 				9267C7082EA78C2600E3E360 /* Staging */,
 			);
@@ -944,6 +1177,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9267C6E02EA78A3400E3E360 /* Debug */,
+				92F25CB22ECB1F2900C2608B /* Tests */,
 				9267C6E12EA78A3400E3E360 /* Release */,
 				9267C7092EA78C2600E3E360 /* Staging */,
 			);
@@ -954,6 +1188,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9267C6E32EA78A3400E3E360 /* Debug */,
+				92F25CB32ECB1F2900C2608B /* Tests */,
 				9267C6E42EA78A3400E3E360 /* Release */,
 				9267C70A2EA78C2600E3E360 /* Staging */,
 			);
@@ -963,7 +1198,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */ = {
+		9280A4202ECC202B008F2D2C /* XCRemoteSwiftPackageReference "SwiftHelperInit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SidaHoil/SwiftHelperInit";
 			requirement = {
@@ -974,9 +1209,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		92ABD14F2EA9E21F0017D7B5 /* SwiftHelperInit */ = {
+		9280A4212ECC202B008F2D2C /* SwiftHelperInit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 92ABD14E2EA9E21F0017D7B5 /* XCRemoteSwiftPackageReference "SwiftHelperInit" */;
+			package = 9280A4202ECC202B008F2D2C /* XCRemoteSwiftPackageReference "SwiftHelperInit" */;
 			productName = SwiftHelperInit;
 		};
 /* End XCSwiftPackageProductDependency section */

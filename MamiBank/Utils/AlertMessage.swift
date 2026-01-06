@@ -8,14 +8,23 @@ import UIKit
 
 class AlertMessage: UIViewController {
     static let shared = AlertMessage()
+    private init() {
+        super.init(nibName: nil, bundle: nil)
+    }
     
-    func show(title: String, message: String, action: @escaping () -> Void = {})  {
+    @available(*, unavailable, message: "Use AlertMessage.shared instead.")
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        fatalError("init(coder:) has not been implemented. Use AlertMessage.shared.")
+    }
+    
+    func show(title: String, message: String, action: @escaping () -> Void = {}) {
         let alert = UIAlertController(
             title: title,
             message: message,
             preferredStyle: .alert
         )
-        alert.addAction(UIAlertAction(title: "ok".translate, style: .default,handler: { _ in
+        alert.addAction(UIAlertAction(title: "ok".translate, style: .default, handler: { _ in
             action()
         }))
         
@@ -42,4 +51,3 @@ class AlertMessage: UIViewController {
         }
     }
 }
-
